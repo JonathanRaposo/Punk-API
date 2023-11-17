@@ -1,0 +1,20 @@
+ <div id="oneBeer-wrapper">
+    <div>
+        <img src="{{image_url}}" alt="beer image" id="oneBeer-img">
+    </div>
+    <div id="beer-content-wrapper">
+          <h2>{{name}}</h2>
+          <p id="tag-para">{{tagline}}</p>
+          <p>{{description}}</p>
+
+          <h3>Food Pairing</h3>
+
+            {{#each food_paring}}
+              <li>{{this}}</li>
+            {{/each}}
+           
+     
+        
+           <p><strong>Brewers Tips:</strong> {{brewers_tips}}</p>
+    </div>
+</div>
