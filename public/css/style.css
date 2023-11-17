@@ -21,6 +21,12 @@ nav {
     align-items: center;
     background-color: #2081c3;
     box-shadow: 0px 3px 5px  #aaa9a9;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  
+  
+    
 
     
 }
@@ -95,7 +101,7 @@ margin-top: 50px;
 }
 
 .tagline{
-    opacity:0.3;
+    opacity:0.4;
     font-size: 0.8em;
 }
 .description-para{
@@ -106,14 +112,16 @@ margin-top: 50px;
 /* one beer styles */
 #oneBeer-container{
     background-color: #bfbfbf ;
+    height: 100vh;
   
  
 }
 #oneBeer-wrapper{
     width: 700px;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
+   
  
 }
 #oneBeer-img{
@@ -139,6 +147,10 @@ footer{
     background-color: #0a2c42;;
     display: flex;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+   
+  
 }
 footer p{
     color:#f7f9f9;
